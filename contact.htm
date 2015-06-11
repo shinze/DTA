@@ -20,44 +20,44 @@
 
         <main role="main">
             <h2>Contactez-moi !</h2>
-            <form action="post" target="#">
+            <form action="get" target="#">
                 <fieldset>
                     <legend>Informations personnelles</legend>
                     <div class="field_line">
                         <label for="your">Vous êtes</label>
                         <select name="you" id="you">
-                            <option value="chanteur">Chanteur d’opérette</option>
+                            <option value="schanteur">Chanteur d’opérette</option>
                             <option value="peintre">Peintre</option>
                             <option value="developpeur">Développeur</option>
                         </select>
                     </div>
                     <div class="field_line">
                         <label for="name">Nom</label>
-                        <input type="text" id="name">
+                        <input type="text" id="name" name="nom" placeholder="Ex. Dupont">
                     </div>
                     <div class="field_line">
                         <label for="" for="firstname">Prénom</label>
-                        <input type="text" id="firstname">
+                        <input type="text" id="firstname" name="prenom" placeholder="Emmanuel">
                     </div>
                     <div class="field_line">
                         <label for="phone">Téléphone</label>
-                        <input type="text" id="phone">
+                        <input type="text" id="phone" name="phone" placeholder="+(33) 06…">
                     </div>
                     <div class="field_line">
                         <label for="email">Email</label>
-                        <input type="email" id="email">
+                        <input type="email" id="email" name="email" placeholder="gaetan@lespolypodes.com">
                     </div>
                     <div class="field_line">
                         <label for="message">Corps du message</label>
-                        <textarea name="" id="message"></textarea>
+                        <textarea name="message" id="message" placeholder="Votre message, soyez sympa. Merci !"></textarea>
                     </div>
                     <div class="field_line">
                         <label for="pj">Pièce jointe</label>
-                        <input type="file" id="pj">
+                        <input type="file" id="pj" name="pj">
                     </div>
                     <div class="field_line">
                         <label for="color">Couleur préférée</label>
-                        <input type="color" id="color">
+                        <input type="color" id="color" name="">
                     </div>
                 </fieldset>
                 <fieldset>
@@ -98,7 +98,7 @@
                     </div>
                 </fieldset>
                 <div class="validation">
-                    <input type="button" value="Envoyer ces infos à la NSA">
+                    <input type="submit" value="Envoyer ces infos">
                 </div>
             </form>
         </main>
