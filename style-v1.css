@@ -1,0 +1,52 @@
+
+
+
+body {
+    font-family: Helvetica;
+}
+.main-title {
+    color: green;
+}
+.section-scolarite {
+    color: green;
+}
+.section-pro {
+    color: hotpink;
+}
+.section-presentation {
+    color: purple;
+}
+
+.section-important {
+    border: 10px green solid;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* Ici un commentaire */
+}
+
+
+
+.section-scolarite .section-title {
+    color: orange;
+}
+.section-presentation .section-title {
+    color: black
+}
+
+
+a[href^='http'] {
+    color: red;
+}
+
+
+.main-nav > ul > li > a {color: purple}
+
+
+.section-title + p {
+    border: 2px blue solid;
+    padding: 20px;
+}
+
+
+
+
