@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CV de Gaëtan Ark</title>
+    </head>
+    <body>
+
+
+
+        <header>
+            <h1>Bienvenue sur mon CV, page contact</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.htm">Accueil du CV</a></li>
+                    <li><a href="contact.htm">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main role="main">
+            <h2>Contactez-moi !</h2>
+            <form action="post" target="#">
+                <fieldset>
+                    <legend>Informations personnelles</legend>
+                    <div class="field_line">
+                        <label for="your">Vous êtes</label>
+                        <select name="you" id="you">
+                            <option value="chanteur">Chanteur d’opérette</option>
+                            <option value="peintre">Peintre</option>
+                            <option value="developpeur">Développeur</option>
+                        </select>
+                    </div>
+                    <div class="field_line">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="field_line">
+                        <label for="" for="firstname">Prénom</label>
+                        <input type="text" id="firstname">
+                    </div>
+                    <div class="field_line">
+                        <label for="phone">Téléphone</label>
+                        <input type="text" id="phone">
+                    </div>
+                    <div class="field_line">
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="field_line">
+                        <label for="message">Corps du message</label>
+                        <textarea name="" id="message"></textarea>
+                    </div>
+                    <div class="field_line">
+                        <label for="pj">Pièce jointe</label>
+                        <input type="file" id="pj">
+                    </div>
+                    <div class="field_line">
+                        <label for="color">Couleur préférée</label>
+                        <input type="color" id="color">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Informations complémentaires</legend>
+                    <div class="field_group">
+                        <h3>Sexe</h3>
+                        <ul>
+                            <li class="field_group_line">
+                                <input type="radio" name="sexe" id="sex1">
+                                <label for="sex1">Mâle</label>
+                            </li>
+                            <li class="field_group_line">
+                                <input type="radio" name="sexe" id="sex2">
+                                <label for="sex2">Femelle</label>
+                            </li>
+                            <li class="field_group_line">
+                                <input type="radio" name="sexe" id="sex3">
+                                <label for="sex3">Autre</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="field_group">
+                        <h3>Vous aimez ?</h3>
+                        <ul>
+                            <li class="field_group_line">
+                                <input type="checkbox">
+                                <label for="">Le chocolat</label>
+                            </li>
+                            <li class="field_group_line">
+                                <input type="checkbox">
+                                <label for="">Les fraises</label>
+                            </li>
+                            <li class="field_group_line">
+                                <input type="checkbox">
+                                <label for="">Le thé</label>
+                            </li>
+                        </ul>
+                    </div>
+                </fieldset>
+                <div class="validation">
+                    <input type="button" value="Envoyer ces infos à la NSA">
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <address>
+                <strong>Adresse</strong>
+                <span class="street">15, rue Jean Valjean</span>
+                <span class="city">44000 Nantes</span>
+            </address>
+        </footer>
+    </body>
+</html>
