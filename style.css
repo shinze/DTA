@@ -31,13 +31,16 @@ body {
 }
 
 
+
+
+
 a[href^='http'] {
     color: red;
 }
 
 
 
-
+.main-nav > ul > li > a {color: purple}
 
 
 
