@@ -1,0 +1,119 @@
+
+
+/* Tags */
+
+html {
+    background-color: #eee;
+    box-sizing: border-box;
+}
+
+/* Usual border-box modification :
+
+ http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ https://css-tricks.com/box-sizing/
+
+*/
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #444;
+    max-width: 780px;
+    background-color: #FFF;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+a {
+    color: darkred;
+}
+
+a:focus {
+    color: red;
+}
+a:hover {
+    color: pink;
+}
+a:visited {
+    color: purple;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+
+
+/* Element design */
+
+.main-header {
+    border-bottom: 10px #333 solid;
+    background-color: #eee;
+    padding: 20px;
+}
+.contact .main-header {
+    background-color: yellow;
+}
+.portrait {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all .3s;
+}
+.portrait:hover{
+    transform: skew(45deg) translateX(200px) translateY(200px) rotate(45deg);
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: hotpink;
+}
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+.main-nav li {
+    display: inline-block;
+    background-color: #FFF;
+    padding: 10px;
+}
+.main-nav li:hover {
+    background-color: #333;
+}
+.main-nav li:before {
+    content: "›";
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.main-nav li:hover:before {
+    color: yellow
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
