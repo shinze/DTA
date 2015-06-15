@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps:400,700);
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Merriweather, serif;
+    color: #333;
+    line-height: 1.5;
+}
+
+
+
+
+
+.page {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.main-header {
+    margin-top: 2em;
+    padding: 1em;
+    text-align: center;
+    border-top: 3px #333 solid;
+    position: relative;
+}
+.site-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-style: italic;
+    text-align: right;
+    font-size: .8em;
+    color: #aaa
+}
+
+.site-name {
+    color: #aaa;
+    font-weight: normal;
+    font-size: 8em;
+    line-height: 1;
+    margin: 0;
+    font-family: Oleo Script Swash Caps, serif;
+    text-shadow:
+        2px 2px 0 #fff,
+        4px 4px 0 #ccc
+    ;
+}
+
+
+.section {
+    border-top: 3px #333 solid;
+}
+.section:after {
+    content: " ";
+    display: block;
+    clear: both
+}
+
+
+@media(min-width: 800px) {
+    .article {
+        float: left;
+        width: 33.3333%;
+        padding: 0 15px;
+    }
+}
+
+.article img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.article p {
+    font-size: .9em;
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 2em;
+}

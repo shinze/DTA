@@ -1,0 +1,15 @@
+.box {
+    background-color: red;
+}
+
+.box:after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+.a, .b {
+    float: left;
+    width: 30%;
+    outline: 1px blue solid;
+}

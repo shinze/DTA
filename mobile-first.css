@@ -1,0 +1,23 @@
+body {
+    margin: 0
+}
+.toto {
+    color: red;
+    background-color: yellow;
+    padding: 20px;
+    transition: all .4s;
+}
+
+
+@media(min-width: 600px) {
+    .toto {
+        background-color: orange;
+    }
+}
+@media(min-width: 900px) {
+    .toto {
+        background-color: red;
+        color: #fff;
+    }
+
+}
