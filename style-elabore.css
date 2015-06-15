@@ -20,13 +20,6 @@ body {
     background-color: #DDD;
 }
 
-/*
-.notes thead {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}*/
-
 .notes-caption {
     font-size: 2em;
     text-align: left;
